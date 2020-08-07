@@ -80,7 +80,8 @@
 ## git branch -d 分支名
 1. 删除分支
 
-## git
+## git remote rm origin 
+1. 删除与远程仓库的链接
 
 
 

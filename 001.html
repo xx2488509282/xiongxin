@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="device-width,initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <style>
+        .row>div {
+            background-color: pink;
+            border: 1px solid rgba(86, 61, 124, 0.2);
+        }
+        
+        .title {
+            font-size: 30px;
+            color: red;
+            text-align: center;
+        }
+        
+        .col-2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <div class="container" style="height: 100px;background-color: yellow;">
+        <div class="row">
+            <div class="col-4 col-sm-3 col-md-6 col-lg-5 col-xl-10 bg-success">
+                RUNOOB
+            </div>
+            <div class="col-4 col-sm-9 col-md-6 col-lg-5 col-xl-4 bg-warning">
+                菜鸟教程
+            </div>
+        </div>
+    </div> -->
+
+    <p class="title">水平布局</p>
+    <!--水平排列方式-->
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-2">start</div>
+            <div class="col-2">start</div>
+            <div class="col-2">start</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-2">center</div>
+            <div class="col-2">center</div>
+            <div class="col-2">center</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-end">
+            <div class="col-2">end</div>
+            <div class="col-2">end</div>
+            <div class="col-2">end</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-2">around</div>
+            <div class="col-2">around</div>
+            <div class="col-2">around</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-2">between</div>
+            <div class="col-2">between</div>
+            <div class="col-2">between</div>
+        </div>
+    </div>
+
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+</body>
+
+</html>

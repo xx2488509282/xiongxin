@@ -62,17 +62,20 @@
 ## 更新代码
 1. 把远程代码更新到本地时，一定要养成先提交后更新的习惯
 2. git pull 把远程代码拉取到本地
-3. git clone 把远程代码复制
+3. git clone 把远程仓库克隆到本地
 
 ## git branch
 1. 查看分支
 2. 当前分支前面有*
 
-## git branch 
+## git branch 分支名
+创建分支
 
+## git checkout 分支名
+1. 切换分支
 
-## test分支
-1. test修改
+## git merge 分支名
+1. 和并分支
 
 
 
